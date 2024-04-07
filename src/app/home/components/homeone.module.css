@@ -1,0 +1,95 @@
+
+.homeone{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5em;
+    padding: 2em 5em;
+}
+
+.con1{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.content {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.border {
+    border-bottom: 3px solid #FBCB0D;
+}
+
+.getbtn{
+    background-color: #421193;
+    padding: 12px 24px;
+    color: white;
+    width: fit-content;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Container 2 */
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+    align-items: center;
+    justify-content: center;
+}
+
+.allimages{
+    display: flex;
+    gap: 5em;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.scrollDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+    justify-content: center;
+}
+
+.students {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    align-items: center;
+    justify-content: center;
+}
+
+.stats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 38em;
+    gap: 4em;
+}
+
+.eachstat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    flex-direction: column;
+    text-align: center;
+}
+
+.borderline{
+    border: .2px solid #D5D5D5;
+    width: 120%;
+}
+
+.joinbtn{
+    padding: 9px 35px;
+    background-color: #421193;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}

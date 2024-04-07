@@ -1,0 +1,37 @@
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 5em;
+    margin-bottom: 2em;
+}
+
+.header1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header2 {
+    display: flex;
+    gap: 28px;
+    align-items: center;
+    justify-content: center;
+}
+
+.header3 {
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    justify-content: center;
+}
+
+.reqbtn {
+    background-color: #421193;
+    padding: 12px 24px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
