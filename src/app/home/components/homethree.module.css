@@ -1,0 +1,108 @@
+
+.slider{
+    width: 60%;
+    background-color: #181540;
+}
+
+.content{
+    height: 18em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1em 2em;
+    background-color: #181540;
+    color: white;
+    border:none;
+
+}
+
+.con1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    padding: 2em 10%;
+}
+
+.cont1,.cont12{
+    font-weight: bold;
+}
+
+.cont2 {
+    font-size: 12px;
+}
+
+.imgperson{
+    width: 24em;
+}
+
+.house{
+    width: 18em;
+}
+
+.content1 {
+    padding-left: 3em;
+    width: 60%;
+    display: flex;
+    justify-content: start;
+    gap: 1em;
+    flex-direction: column;
+}
+
+.content2 {
+    position: relative;
+    display: flex;
+    justify-content: start;
+    gap: 1em;
+    flex-direction: column;
+    width: 24em !important;
+}
+
+.content2{
+    width: 100%;
+}
+
+.imgdiv,.imgdiv1
+{
+    width: 100%;
+    background-color: #F0E7FF;
+    display: flex;
+    justify-content: center;
+    height: 16em;
+}
+
+.imgdiv1 {
+    width: 60%;
+}
+
+.getbtn{
+    border: 1px solid #421193;
+    padding: 8px 28px;
+    color: #421193;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.rndarr {
+    position: absolute;
+    bottom: -10%;
+    right: 25%;
+}
+
+.sliderheader{
+    font-size: 2em;
+}
+
+.sliderdiv{
+    margin-top: 5em;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4em 5%;
+    background-color: #181540;
+    flex-direction: column;
+    gap: 3em;
+}
