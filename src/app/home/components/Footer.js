@@ -23,7 +23,7 @@ function Footer() {
             </div>
             <div className={Styles.socailcontent}>Lorem ipsum dolor sit amet consectetur. Nisl nunc turpis sit molestie dignissim leo. Augue cras aliquet ac lobortis purus morbi. Nisl massa enim a ut odio consectetur blandit nascetur scelerisque. Viverra felis scelerisque sagittis diam urna sed quis enim mauris. Cursus pharetra molestie tempor eget. Tortor tortor amet scelerisque diam nulla volutpat imperdiet.</div>
         </div>
-        <div style={{color:"white"}} className='flex justify-between'>
+        <div style={{color:"white"}} className={`flex justify-between ${Styles.resource}`}>
             <div className='flex flex-col gap-4'>
                 <div>Company</div>
                 <div>About Us</div>

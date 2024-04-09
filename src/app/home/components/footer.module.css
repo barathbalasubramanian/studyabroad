@@ -39,6 +39,7 @@
     align-items: center;
     justify-content: space-between;
     gap: 3em;
+    padding: 2em 0;
 }
 
 .socailCon{
@@ -46,6 +47,7 @@
     flex-direction: column;
     gap: 1em;
     padding: 0 0 0 1em;
+    width: 30em;
 }
 
 .eachlogo{
@@ -59,4 +61,8 @@
 
 .socailcontent{
     color: white;
+}
+
+.resource{
+    width: 50%;
 }
