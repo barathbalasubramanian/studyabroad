@@ -1,0 +1,72 @@
+
+.input {
+    outline: none;
+    border: 1px solid #635BFF;
+    width: 100%;
+    padding: 8px 16px;
+    color: #635BFF;
+    border-radius: 5px;
+    /* background-color: white */
+}
+
+.allinputDiv {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    margin-top: 3em;
+    gap: 1.5em;
+    margin-bottom: 3em;
+}
+
+.inputField{
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+
+.subbtn{
+    color: white;
+    background-color: #421193;
+    padding: 8px 30px;
+    cursor: pointer;
+    width: fit-content;
+    border-radius: 5px;
+}
+
+.opts {
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    justify-content: space-between;
+}
+
+.guardopt{
+    width: 90%;
+    border: 1px solid #635BFF;
+    padding: 8px 24px;
+    color: #635BFF;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.opts {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.guardopt {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.selected {
+    background-color: blue;
+    color: white;
+}
+
