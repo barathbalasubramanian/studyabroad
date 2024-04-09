@@ -2,6 +2,8 @@ import React from 'react';
 import Swiper from '../components/Swiper';
 import Image from 'next/image';
 import Styles from './homethree.module.css';
+import Blogs from './Blogs';
+// import Blogs from './Blogs';
 
 function Homethree() {
 
@@ -67,6 +69,23 @@ function Homethree() {
                 <div className={Styles.sliderdiv}>
                     <div className={Styles.sliderheader}>See What Our Students Are Saying</div>
                     <Swiper />
+                </div>
+
+                <div>
+                    {/* <div className={Styles.blog}>
+                        <div>
+                            <div className='text-lg'>Read Our Blog</div>
+                            <div className='text-sm'>Lorem ipsum dolor sit amet consectetur.. </div>
+                        </div>
+                        <div className='flex flex-row gap-5'>
+                            <div className={Styles.rnd}>←</div>
+                            <div className={Styles.rnd}>→</div>
+                        </div>
+                    </div>
+                    <div className={Styles.blogscontainer}>
+                        <Blogs/>
+                    </div> */}
+                    <Blogs/>    
                 </div>
             </div>
         </div>

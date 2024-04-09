@@ -96,7 +96,7 @@
 }
 
 .sliderdiv{
-    margin-top: 5em;
+    margin: 7em 0;
     color: white;
     display: flex;
     align-items: center;
@@ -105,4 +105,126 @@
     background-color: #181540;
     flex-direction: column;
     gap: 3em;
+}
+
+.blog{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+}
+
+
+
+.rnd,.lnd{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #000; 
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.blogsContainer{
+    padding: 0 10%;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    gap: 1em;
+    width: 100%;
+    overflow-x: hidden;
+    transition: transform 0.5s ease;
+}
+
+.eachblog{
+    display: flex;
+    /* align-items:center; */
+    flex-direction: column;
+    gap: .5em;
+    padding: 2em;
+    position: relative;
+    width: 24em;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0 30px 0 0;
+}
+
+.decs {
+    font-size: 15px;
+    padding: 0 30px 0 0;
+}
+
+.arrowimg{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #421193;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 7%;
+    right: 9%;
+    background-color: #421193;
+}
+
+.blogeachimg{
+    width: 24em;
+    height: 15em;
+}
+
+.blogarrimg{
+    width: 50%;
+}
+
+@keyframes slideLeft {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideRight {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.slideLeft {
+    animation: slideLeft 1s ease forwards;
+}
+
+.slideRight {
+    animation: slideRight 1s ease forwards;
+}
+
+
+.lnd,
+.rnd {
+    cursor: pointer;
+}
+
+/* .lnd.active, */
+.rnd.active {
+    cursor: pointer;
+    background-color: #421193;
+}
+.back , .front {
+    max-width: 50%;
+}
+
+.lnd:not(.active),
+.rnd:not(.active) {
+    cursor: not-allowed;
+    background-color: white;
 }
