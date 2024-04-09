@@ -3,6 +3,7 @@ import Header from './components/Header'
 import Homeone from './components/Homeone'
 import Hometwo from './components/hometwo'
 import Homethree from './components/Homethree'
+import Footer from './components/Footer'
 
 function HomePage() {
   return (
@@ -11,6 +12,7 @@ function HomePage() {
       <Homeone/>
       <Hometwo/>
       <Homethree/>
+      <Footer/>
     </div>
   )
 }

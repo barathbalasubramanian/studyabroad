@@ -1,0 +1,62 @@
+
+.footer {
+    margin-top: 3em;
+    background-color: #421193;
+    padding: 2em 4em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    height: 30em;
+}
+
+.logo{
+    width: 100%;
+}
+
+.logocnt{
+    color: white;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact{
+    padding: 12px 30px;
+    color: black;
+    font-size: 16px;
+    background-color: #FBCB0D;
+    border-radius: 5px;
+}
+
+.line{
+    border: 1px solid #FFFFFF;
+    width: 100%;
+}
+
+.footercontent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3em;
+}
+
+.socailCon{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 0 0 0 1em;
+}
+
+.eachlogo{
+    width: 2em;
+}
+
+.socialLogo{
+    display: flex;
+    gap: 1em;
+}
+
+.socailcontent{
+    color: white;
+}
