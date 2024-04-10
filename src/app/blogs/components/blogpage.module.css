@@ -1,0 +1,72 @@
+
+.dropshaowdiv{
+    box-shadow: 5px 5px 5px rgb(216 216 216);
+    border-radius: 10px;
+}
+
+.btns{
+    color: #635BFF;
+    border: 1px solid #635BFF;
+    padding: 10px 45px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.blogsImage{
+    width: 100%;
+}
+
+.spanel{
+    color: #635BFF;
+}
+
+.shareicon{
+    color: #635BFF !important;
+    width: 15px !important;
+}
+
+.paginateDiv{
+    display: flex;
+    padding: 3px 5px;
+    border: 1px solid #635BFF;
+    border-radius: 24px;
+    margin: auto;
+}
+
+.eachpage {
+    padding: 0 .5em;
+}
+
+.eachpageborder {
+    border-right: 1px solid black;
+}
+
+.otherpage{
+    color: grey;
+}
+
+.currpage{
+    color: #635BFF;
+}
+
+.arrowBtn{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.inactive {
+    background-color: grey;
+}
+.active {
+    background-color: #421193;
+}
+
+.arrImg1 {
+    rotate: 180deg;
+}
+
+.arrImg1,.arrImg{
+    width: 75%;
+}
