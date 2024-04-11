@@ -1,0 +1,190 @@
+
+.searchDiv {
+    box-shadow: 5px 5px 5px 5px rgb(216 216 216);
+    border-radius: 10px;
+    margin: 3em 10%;
+}
+
+.Searchdate {
+    width: 5.5em;
+    padding-right: 10px;
+    border-right: 1.5px solid grey;
+}
+
+.SearchInput {
+    width: 80%;
+    color: black;
+    padding: 14px;
+    font-size: 18px;
+    outline: none;
+}
+
+.searchBtn{
+    background-color: #421193;
+    color: white;
+    padding: .75em 2em;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.viewbtns{
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.viewsbtn {
+    padding: .75em 2em;
+    cursor: pointer;
+}
+
+.mapbtn {
+    color: black;
+    background-color: white;
+    border-radius: 5px 0 0 5px;
+}
+
+.listbtn {
+    color: white;
+    background-color: #421193;
+    border-radius: 0 5px 5px 0;
+}
+
+
+.eachCard{
+    box-shadow: 2px 2px 2px 2px rgb(216 216 216);
+    border-radius: 16px;
+}
+
+.houseImg {
+    width: 20em;
+}
+
+.vectoHouse{
+    max-width: 10px;
+}
+
+.enquireBtn{
+    border: 1px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+.filtersDiv{
+    background-color: #F5EFFF;
+    width: 24em;
+    border-radius: 15px;
+}
+
+.eachfilter {
+    border-bottom: 1px solid grey;
+}
+
+.resetbtn {
+    cursor: pointer;
+    color: #8C8C8C;
+}
+
+.radio-checkbox-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .radio-checkbox-group label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%; 
+  }
+  
+  .radio-checkbox-group input[type="radio"]
+  {
+    margin-right: 8px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 1px solid #421193;
+    outline: none;
+    cursor: pointer;
+    padding: 1.5px;
+    background-clip: content-box;
+  }
+  
+ 
+  .radio-checkbox-group input[type="radio"]:checked {
+    background-color: #421193; /* Change background color to black */
+    border-color: #421193; /* Change border color to black */
+  }
+
+  
+.rangeContainer {
+    position: relative;
+    width: 100%;
+    height: 20px;
+    margin: 20px 0;
+  }
+  
+  .rangeInput {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    appearance: none;
+    background-color: transparent;
+  }
+  
+  .rangeInput::-webkit-slider-thumb {
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    background-color: #FBCB0D;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: -13px;
+  }
+  
+  .selectedRange {
+    position: absolute;
+    height: 3px;
+    background-color: #635BFF;
+    top: 1px;
+    left: 0;
+  }
+  
+  .startDot,
+  .endDot {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #C5C5C5;
+    border-radius: 50%;
+    top: -14%
+  }
+  
+  .startDot {
+    left: -5px;
+  }
+  
+  .endDot {
+    right: -5px;
+  }
+  
+  .dotValue {
+    position: absolute;
+    top: 6px;
+    left: -6px;
+    font-size: 22px;
+  }
+
+  .dotValue1 {
+    position: absolute;
+    top: 6px;
+    right: -20px;
+    font-size: 22px;
+  }
+
+  .typedesc{
+    font-size: 12px;
+  }

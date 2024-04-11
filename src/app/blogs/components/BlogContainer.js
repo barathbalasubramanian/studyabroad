@@ -37,7 +37,7 @@ const BlogContainer = () => {
       position: 'Certified senior counsellor'
     },
     {
-      imageUrl: '/assets/blogs4.svg',
+      imageUrl: '/assets/blogs1.svg',
       title: 'Why have my IELTS results been delayed?',
       description: "Why have my IELTS results been delayed?",
       author: 'Rohit Sharma',
