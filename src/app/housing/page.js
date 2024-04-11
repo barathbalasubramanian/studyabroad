@@ -3,6 +3,7 @@ import Header from '../home/components/Header'
 import Footer from '../home/components/Footer'
 import Styles from './components/accomodation.module.css';
 import AccomodationCard from './components/AccomodationCard';
+import Questions from './components/Questions';
 
 const HousingPage = () => {
   return (
@@ -31,6 +32,10 @@ const HousingPage = () => {
             {/* Filters ans Availables */}
             <div>
                 <AccomodationCard/>
+            </div>
+
+            <div>
+               <Questions/>
             </div>
         </div>
       <Footer/>

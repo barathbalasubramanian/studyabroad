@@ -72,12 +72,14 @@
 
 .filtersDiv{
     background-color: #F5EFFF;
-    width: 24em;
+    width: 30em;
+    height: fit-content;
     border-radius: 15px;
 }
 
 .eachfilter {
     border-bottom: 1px solid grey;
+    padding-bottom: 2em;
 }
 
 .resetbtn {
@@ -188,3 +190,25 @@
   .typedesc{
     font-size: 12px;
   }
+
+  .amenity{
+    padding: 4px 9px;
+    border: 1px solid black;
+    border-radius: 13px;
+    font-size: 12px;
+}
+
+.amenityvalue{
+  background-color: #421193;
+  color: white;
+}
+
+.applyBtn{
+  margin: auto;
+  width: 75%;
+  padding: 8px 16px;
+  background-color: #421193;
+  color: white;
+  cursor: pointer;
+  border-radius: 8px;
+}

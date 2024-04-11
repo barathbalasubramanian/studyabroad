@@ -57,8 +57,13 @@ const AccomodationCard = () => {
 
   ];
 
+  const amenitiesData = ["24/7 Security + CCTV" , "Central", "Heating", "Advice", "Accessibility", "Catering", "Kitchen", "Breakfast", "Air Conditioning", "Laundry", "Cinema Room", "Flexible", "On-Site Gym", "On-Site Maintenance", "Swimming Pool"]
+
+
   const [selectedOption, setSelectedOption] = useState(null);
   const [selectedOptionType, setSelectedOptionType] = useState(null);
+  const [setAmenities, setAmenitiesValue] = useState(null);
+
   const handleOptionChange = (event) => {
     setSelectedOption(event.target.value);
   };
@@ -73,10 +78,12 @@ const AccomodationCard = () => {
     setValue(event.target.value);
   };
 
-
+  const amentiesFun = (item) => {
+    setAmenitiesValue(item);
+  }
 
   return (
-    <div className='my-16'>
+    <div className='my-16 flex gap-4 mx-10'>
       <div className={`flex flex-col gap-4 py-4 px-4 ${Styles.filtersDiv}`}>
         <div className={`flex justify-between ${Styles.eachfilter} py-4 px-6` }>
             <div>Filters</div>
@@ -146,9 +153,21 @@ const AccomodationCard = () => {
                 </label>
             </div>
         </div>
+        <div className={`flex justify-between flex-col gap-4 ${Styles.amenities} ${Styles.eachfilter} py-4 px-6`}>
+          <div className={`font-semibold`}>Amenities</div>
+          <div className={`flex flex-wrap gap-2`}>
+            {/* loop this amenities data */}
+            {amenitiesData.map((item, index) => (
+              <div key={index} onClick={()=>amentiesFun(item)} className={`px-2 text-sm cursor-pointer ${Styles.amenity} ${ item == setAmenities ? Styles.amenityvalue : "" }`}>
+                {item}
+              </div>
+            ))}
+          </div>
+        </div>
+        <div className={` flex items-center justify-center w-full ${Styles.applyBtn}`}>Apply</div>
       </div>
 
-      {/* <div className={`flex flex-wrap gap-16 items-center justify-center w-full ${Styles.allAccCards}`}>
+      <div className={`flex flex-wrap gap-16 items-center justify-center w-full ${Styles.allAccCards}`}>
         {cardData.map((data, index) => (
           <div key={index} className={`${Styles.eachCard} flex flex-col gap-6 items-center justify-start`}>
             <div><Image className={Styles.houseImg} src={data.imageUrl} alt='House images' width={100} height={100} /></div>
@@ -170,7 +189,7 @@ const AccomodationCard = () => {
             </div>
           </div>
         ))}
-      </div> */}
+      </div> 
     </div>
   )
 }
