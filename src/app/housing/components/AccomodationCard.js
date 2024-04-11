@@ -83,7 +83,7 @@ const AccomodationCard = () => {
   }
 
   return (
-    <div className='my-16 flex gap-4 mx-10'>
+    <div className='my-16 flex gap-2 mx-10'>
       <div className={`flex flex-col gap-4 py-4 px-4 ${Styles.filtersDiv}`}>
         <div className={`flex justify-between ${Styles.eachfilter} py-4 px-6` }>
             <div>Filters</div>
@@ -167,7 +167,7 @@ const AccomodationCard = () => {
         <div className={` flex items-center justify-center w-full ${Styles.applyBtn}`}>Apply</div>
       </div>
 
-      <div className={`flex flex-wrap gap-16 items-center justify-center w-full ${Styles.allAccCards}`}>
+      <div className={`flex flex-wrap gap-10 items-center justify-center w-full ${Styles.allAccCards}`}>
         {cardData.map((data, index) => (
           <div key={index} className={`${Styles.eachCard} flex flex-col gap-6 items-center justify-start`}>
             <div><Image className={Styles.houseImg} src={data.imageUrl} alt='House images' width={100} height={100} /></div>

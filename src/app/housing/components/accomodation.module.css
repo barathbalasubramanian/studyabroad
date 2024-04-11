@@ -51,6 +51,7 @@
 
 
 .eachCard{
+    max-width: 24em;
     box-shadow: 2px 2px 2px 2px rgb(216 216 216);
     border-radius: 16px;
 }
@@ -72,7 +73,7 @@
 
 .filtersDiv{
     background-color: #F5EFFF;
-    width: 30em;
+    width: 28em;
     height: fit-content;
     border-radius: 15px;
 }
