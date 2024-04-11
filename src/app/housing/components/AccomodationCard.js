@@ -59,7 +59,6 @@ const AccomodationCard = () => {
 
   const amenitiesData = ["24/7 Security + CCTV" , "Central", "Heating", "Advice", "Accessibility", "Catering", "Kitchen", "Breakfast", "Air Conditioning", "Laundry", "Cinema Room", "Flexible", "On-Site Gym", "On-Site Maintenance", "Swimming Pool"]
 
-
   const [selectedOption, setSelectedOption] = useState(null);
   const [selectedOptionType, setSelectedOptionType] = useState(null);
   const [setAmenities, setAmenitiesValue] = useState(null);
