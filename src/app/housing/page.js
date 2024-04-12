@@ -11,7 +11,7 @@ const HousingPage = () => {
       <Header/>
       <div>
             <div className='flex items-center justify-center text-5xl m-auto w-2/4 text-center'>Find Student Accommodation,That Best Suits You</div>
-            <div className='flex items-center justify-center text-sm w-1/2 px-4 mt-3 text-center m-auto'>On a Budget or something with a view? We've got you!</div>
+            <div className='flex items-center justify-center text-sm w-1/2 px-4 mt-3 text-center m-auto'>On a Budget or something with a view? We&apos;ve got you!</div>
             {/* SearchDIv */}
             <div className={`flex items-center justify-between px-8 py-4 ${Styles.searchDiv}`}>
                 <div className='w-full'><input type="text" className={Styles.SearchInput}/></div>
@@ -38,7 +38,7 @@ const HousingPage = () => {
                <Questions/>
             </div>
         </div>
-      <Footer/>
+        <Footer/>
     </div>
   )
 }
