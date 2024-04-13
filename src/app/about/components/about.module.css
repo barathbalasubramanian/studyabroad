@@ -1,0 +1,18 @@
+
+.aboutImg {
+    width: 24em;
+}
+
+.aboutDiv{
+    padding: 5% 10%;
+}
+
+.readbtn {
+    background-color: #421193;
+    padding: 12px 24px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    width: fit-content;
+    margin-top: 2em;
+}

@@ -15,7 +15,7 @@ function Homeone() {
 
   return (
     <div className={Styles.homeone}>
-      <div className={Styles.container1}>
+      <div className={`${Styles.container1} flex gap-8 items-center justify-evenly`}>
         <div className={Styles.con1}>
             <div className={Styles.content}>
                 <div> Discover The World, </div>
@@ -28,6 +28,7 @@ function Homeone() {
             </div>
         </div>
         <div className={Styles.imagevector}>
+            <Image src="/assets/homeimg.svg" alt='Home' width={100} height={100} className={Styles.homeimg}/>
         </div>
       </div>
       <div className={Styles.container2}>
