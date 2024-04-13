@@ -18,7 +18,7 @@ function Footer() {
         <div className={Styles.socailCon}>
             <div className={Styles.socialLogo}>
                 <Image className={Styles.eachlogo} src="/assets/Fb.svg" alt="FaceBook" width={100} height={100}/>
-                <Image className={Styles.eachlogo} src="/assets/insta.svg" alt="Insta" width={100} height={100}/>
+                <Image className={Styles.eachlogo} src="/assets/Insta.svg" alt="Insta" width={100} height={100}/>
                 <Image className={Styles.eachlogo} src="/assets/Twitter.svg" alt="Twitter" width={100} height={100}/>
             </div>
             <div className={Styles.socailcontent}>Lorem ipsum dolor sit amet consectetur. Nisl nunc turpis sit molestie dignissim leo. Augue cras aliquet ac lobortis purus morbi. Nisl massa enim a ut odio consectetur blandit nascetur scelerisque. Viverra felis scelerisque sagittis diam urna sed quis enim mauris. Cursus pharetra molestie tempor eget. Tortor tortor amet scelerisque diam nulla volutpat imperdiet.</div>
