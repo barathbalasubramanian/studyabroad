@@ -1,5 +1,5 @@
 import React from 'react';
-import Swiper from '../components/Swiper';
+import Swiper from './Swiper';
 import Image from 'next/image';
 import Styles from './homethree.module.css';
 import Blogs from './Blogs';

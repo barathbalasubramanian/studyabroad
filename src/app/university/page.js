@@ -1,6 +1,6 @@
 import React from 'react'
-import Header from '../home/components/Header'
-import Footer from '../home/components/Footer'
+import Header from '../../components/home/components/Header'
+import Footer from '../../components/home/components/Footer'
 import UniversityCard from './components/UniversityCard'
 
 function UniversityPage() {

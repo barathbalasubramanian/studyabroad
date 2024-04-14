@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from '../home/components/Header'
+import Header from '../../components/home/components/Header'
 import AboutContainer from './components/aboutCon'
 
 function AboutUs() {

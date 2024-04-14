@@ -1,6 +1,6 @@
 import React from 'react'
-import Header from '../home/components/Header'
-import Footer from '../home/components/Footer'
+import Header from '../../components/home/components/Header'
+import Footer from '../../components/home/components/Footer'
 import Styles from './components/blogpage.module.css'
 import BlogContainer from './components/BlogContainer'
 
@@ -43,9 +43,8 @@ const BlogsPage = () => {
           position: 'Head, Destination Training and Client Development (Australia) '
         },
     
-      ];
+    ];
 
-      
   return (
     <div className={Styles.blogspage}>
         <Header/>
